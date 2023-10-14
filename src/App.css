@@ -1,0 +1,146 @@
+/* Add styles for the container and its children */
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+ 
+}
+
+.image-container {
+  flex: 2; /* 66.6% width for the image */
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This will make the image fit the container without distortion */
+}
+
+.fields-container {
+  flex: 1; /* 33.3% width for the fields */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.field {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:500px;
+  box-sizing: border-box;
+}
+
+
+.field .field1 input,textarea{
+  border: none;
+  outline: none;
+}
+
+
+.field2 {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:500px;
+  box-sizing: border-box;
+}
+
+.field2 .field1 input,textarea{
+  border: none;
+  outline: none;
+}
+
+.field1{
+color: #575E6B;
+font-family: Metropolis;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.field .field1{
+  border: 1px solid #E5E5E5; /* Border style, width, and color */
+  border-radius: 10px; /* Adjust the value to control the roundness of edges */
+  padding: 5px; /* Add some padding for space inside the border */
+  display: block; /* Stack label and input vertically */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.left {
+  
+  display: flex;
+  align-items: left;
+  padding-left: 0%;
+  margin-left: 0;
+}
+.field2 .field1{
+  border: 1px solid #E5E5E5; /* Border style, width, and color */
+  border-radius: 10px; /* Adjust the value to control the roundness of edges */
+  padding: 5px; /* Add some padding for space inside the border */
+  display: block; /* Stack label and input vertically */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit]{
+  border-radius: 2px;
+  
+background: #141414;
+color:white;
+border-radius: 8px;
+}
+
+.email{
+  font-family: metropolis;
+  color: 	#808080;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+
+
+label {
+  margin-bottom: 5px;
+}
+
+.logo-container{
+
+  border: white;
+
+}
+
+.copy-container{
+
+  margin-top: 40px;
+  
+}
+
+.logoClass{
+
+  width: 90%;
+
+  height: auto;
+}
+
+.input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+
