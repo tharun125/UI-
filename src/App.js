@@ -29,11 +29,6 @@ return( <Router>
 
 </Routes>
 </Router>)
-  // return (
-  //  <div>
-  //    {isRegistered ? <SuccessMessage /> : <RegistrationForm onRegistration={handleRegistration} />}
-  //   </div>
-  // );
   }
 
 export default App;

@@ -1,4 +1,4 @@
-/* Add styles for the container and its children */
+
 .container {
   display: flex;
   height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .image-container {
-  flex: 2; /* 66.6% width for the image */
+  flex: 2; 
   overflow: hidden;
 }
 
@@ -17,11 +17,11 @@ img {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* This will make the image fit the container without distortion */
+  object-fit: cover;
 }
 
 .fields-container {
-  flex: 1; /* 33.3% width for the fields */
+  flex: 1; 
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -71,10 +71,10 @@ line-height: normal;
 
 
 .field .field1{
-  border: 1px solid #E5E5E5; /* Border style, width, and color */
-  border-radius: 10px; /* Adjust the value to control the roundness of edges */
-  padding: 5px; /* Add some padding for space inside the border */
-  display: block; /* Stack label and input vertically */
+  border: 1px solid #E5E5E5; 
+  border-radius: 10px; 
+  padding: 5px; 
+  display: block; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -87,10 +87,10 @@ line-height: normal;
   margin-left: 0;
 }
 .field2 .field1{
-  border: 1px solid #E5E5E5; /* Border style, width, and color */
-  border-radius: 10px; /* Adjust the value to control the roundness of edges */
-  padding: 5px; /* Add some padding for space inside the border */
-  display: block; /* Stack label and input vertically */
+  border: 1px solid #E5E5E5; 
+  border-radius: 10px; 
+  padding: 5px; 
+  display: block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 

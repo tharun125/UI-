@@ -14,10 +14,6 @@ export default class Reset extends Component {
       const capitalRegex = /[A-Z]/;
       const numberRegex = /[0-9]/;
       const specialCharRegex = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/;
-
-  
-      // Your password validation logic here
-      // Check if passwords match and meet your criteria
   
       if (password1 !== password2) {
         alert('Passwords do not match.');
@@ -28,7 +24,7 @@ export default class Reset extends Component {
         !specialCharRegex.test(password1)
       ) {
         alert('Password must contain at least one capital letter, one number, and one special character.');
-        e.preventDefault(); // Prevent form submission
+        e.preventDefault(); 
       }
         
     }

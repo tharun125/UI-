@@ -20,10 +20,8 @@ function ResetThanks() {
 {/* ); */}
 <div><h4><b>Request access</b></h4></div>
 <div><p> Thanks {email} for your intrest,We have<br>
-</br>
-<b>requested admin</b> to verify and approval.<br>
-</br>
-Watch out your email with welcome email <br></br>
+</br><b>requested admin</b> to verify and approval.<br>
+</br>Watch out your email with welcome email <br></br>
 with magic link for us.
 </p></div>
 <div className="field">
